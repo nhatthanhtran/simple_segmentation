@@ -52,8 +52,8 @@ def convert_heic_to_jpeg(data_path):
 
 if __name__ == "__main__":
     
-    data_path = "./data/"
-    save_path = "./results/"
+    data_path = "./data/img/"
+    save_path = "./results/img/"
     model = YOLO("yolov8n-seg.pt")  # nano = fastest
     # convert HEIC images to JPEG
     convert_heic_to_jpeg(data_path)

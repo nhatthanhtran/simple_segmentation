@@ -1,7 +1,9 @@
-# ignore images
+# ignore images and videos
 *.HEIC
 *.jpg
-
+*.MOV
+*.mp4
+*.avi
 # ignore checkpoint files
 *.pt
 
